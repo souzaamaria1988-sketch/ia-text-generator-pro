@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-09-20T14:19:05.011671",
+  "epochs_requested": 10000,
+  "files_found": 60,
+  "last_loss": 0.0039049817714840174,
+  "status": "ok",
+  "experts": 22
+}

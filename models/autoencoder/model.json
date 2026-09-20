@@ -1,0 +1,5 @@
+{
+  "input_dim": 256,
+  "latent_dim": 16,
+  "quantized": true
+}
