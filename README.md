@@ -1,2 +1,6 @@
-# ia-text-generator-pro
-Sistema de IA para geração de texto educacional com modos de pensamento visíveis.
+# Arquivo: README.md
+# Este arquivo foi criado como placeholder porque o navegador não conseguiu ler o arquivo local.
+# Para enviar o conteúdo real:
+# 1. Sirva esta pasta via HTTP, por exemplo: python -m http.server 8080
+# 2. Abra http://localhost:8080/index.html
+# Ou cole o conteúdo dos arquivos no manifesto JSON.
