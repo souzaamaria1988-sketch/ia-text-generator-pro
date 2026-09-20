@@ -1,6 +1,1159 @@
-# Arquivo: knowledge_base.json
-# Este arquivo foi criado como placeholder porque o navegador não conseguiu ler o arquivo local.
-# Para enviar o conteúdo real:
-# 1. Sirva esta pasta via HTTP, por exemplo: python -m http.server 8080
-# 2. Abra http://localhost:8080/index.html
-# Ou cole o conteúdo dos arquivos no manifesto JSON.
+{
+  "matematica": [
+    {
+      "titulo": "Frações",
+      "tags": [
+        "matematica",
+        "frações"
+      ],
+      "definicao": "Frações é um conteúdo essencial de Matemática.",
+      "exemplo": "Aplicar frações em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Equações",
+      "tags": [
+        "matematica",
+        "equações"
+      ],
+      "definicao": "Equações é um conteúdo essencial de Matemática.",
+      "exemplo": "Aplicar equações em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Geometria",
+      "tags": [
+        "matematica",
+        "geometria"
+      ],
+      "definicao": "Geometria é um conteúdo essencial de Matemática.",
+      "exemplo": "Aplicar geometria em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Funções",
+      "tags": [
+        "matematica",
+        "funções"
+      ],
+      "definicao": "Funções é um conteúdo essencial de Matemática.",
+      "exemplo": "Aplicar funções em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Probabilidade",
+      "tags": [
+        "matematica",
+        "probabilidade"
+      ],
+      "definicao": "Probabilidade é um conteúdo essencial de Matemática.",
+      "exemplo": "Aplicar probabilidade em uma atividade escolar prática."
+    }
+  ],
+  "portugues": [
+    {
+      "titulo": "Interpretação",
+      "tags": [
+        "portugues",
+        "interpretação"
+      ],
+      "definicao": "Interpretação é um conteúdo essencial de Português.",
+      "exemplo": "Aplicar interpretação em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Gramática",
+      "tags": [
+        "portugues",
+        "gramática"
+      ],
+      "definicao": "Gramática é um conteúdo essencial de Português.",
+      "exemplo": "Aplicar gramática em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Figuras de linguagem",
+      "tags": [
+        "portugues",
+        "figuras de linguagem"
+      ],
+      "definicao": "Figuras de linguagem é um conteúdo essencial de Português.",
+      "exemplo": "Aplicar figuras de linguagem em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Redação",
+      "tags": [
+        "portugues",
+        "redação"
+      ],
+      "definicao": "Redação é um conteúdo essencial de Português.",
+      "exemplo": "Aplicar redação em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Literatura",
+      "tags": [
+        "portugues",
+        "literatura"
+      ],
+      "definicao": "Literatura é um conteúdo essencial de Português.",
+      "exemplo": "Aplicar literatura em uma atividade escolar prática."
+    }
+  ],
+  "ingles": [
+    {
+      "titulo": "Verb to be",
+      "tags": [
+        "ingles",
+        "verb to be"
+      ],
+      "definicao": "Verb to be é um conteúdo essencial de Inglês.",
+      "exemplo": "Aplicar verb to be em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Simple Present",
+      "tags": [
+        "ingles",
+        "simple present"
+      ],
+      "definicao": "Simple Present é um conteúdo essencial de Inglês.",
+      "exemplo": "Aplicar simple present em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Past Simple",
+      "tags": [
+        "ingles",
+        "past simple"
+      ],
+      "definicao": "Past Simple é um conteúdo essencial de Inglês.",
+      "exemplo": "Aplicar past simple em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Vocabulary",
+      "tags": [
+        "ingles",
+        "vocabulary"
+      ],
+      "definicao": "Vocabulary é um conteúdo essencial de Inglês.",
+      "exemplo": "Aplicar vocabulary em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Reading",
+      "tags": [
+        "ingles",
+        "reading"
+      ],
+      "definicao": "Reading é um conteúdo essencial de Inglês.",
+      "exemplo": "Aplicar reading em uma atividade escolar prática."
+    }
+  ],
+  "fisica": [
+    {
+      "titulo": "Cinemática",
+      "tags": [
+        "fisica",
+        "cinemática"
+      ],
+      "definicao": "Cinemática é um conteúdo essencial de Física.",
+      "exemplo": "Aplicar cinemática em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Leis de Newton",
+      "tags": [
+        "fisica",
+        "leis de newton"
+      ],
+      "definicao": "Leis de Newton é um conteúdo essencial de Física.",
+      "exemplo": "Aplicar leis de newton em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Energia",
+      "tags": [
+        "fisica",
+        "energia"
+      ],
+      "definicao": "Energia é um conteúdo essencial de Física.",
+      "exemplo": "Aplicar energia em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Ondas",
+      "tags": [
+        "fisica",
+        "ondas"
+      ],
+      "definicao": "Ondas é um conteúdo essencial de Física.",
+      "exemplo": "Aplicar ondas em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Eletricidade",
+      "tags": [
+        "fisica",
+        "eletricidade"
+      ],
+      "definicao": "Eletricidade é um conteúdo essencial de Física.",
+      "exemplo": "Aplicar eletricidade em uma atividade escolar prática."
+    }
+  ],
+  "quimica": [
+    {
+      "titulo": "Átomos",
+      "tags": [
+        "quimica",
+        "átomos"
+      ],
+      "definicao": "Átomos é um conteúdo essencial de Química.",
+      "exemplo": "Aplicar átomos em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Tabela periódica",
+      "tags": [
+        "quimica",
+        "tabela periódica"
+      ],
+      "definicao": "Tabela periódica é um conteúdo essencial de Química.",
+      "exemplo": "Aplicar tabela periódica em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Ligações",
+      "tags": [
+        "quimica",
+        "ligações"
+      ],
+      "definicao": "Ligações é um conteúdo essencial de Química.",
+      "exemplo": "Aplicar ligações em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Reações",
+      "tags": [
+        "quimica",
+        "reações"
+      ],
+      "definicao": "Reações é um conteúdo essencial de Química.",
+      "exemplo": "Aplicar reações em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Estequiometria",
+      "tags": [
+        "quimica",
+        "estequiometria"
+      ],
+      "definicao": "Estequiometria é um conteúdo essencial de Química.",
+      "exemplo": "Aplicar estequiometria em uma atividade escolar prática."
+    }
+  ],
+  "biologia": [
+    {
+      "titulo": "Célula",
+      "tags": [
+        "biologia",
+        "célula"
+      ],
+      "definicao": "Célula é um conteúdo essencial de Biologia.",
+      "exemplo": "Aplicar célula em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Genética",
+      "tags": [
+        "biologia",
+        "genética"
+      ],
+      "definicao": "Genética é um conteúdo essencial de Biologia.",
+      "exemplo": "Aplicar genética em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Fotossíntese",
+      "tags": [
+        "biologia",
+        "fotossíntese"
+      ],
+      "definicao": "Fotossíntese é um conteúdo essencial de Biologia.",
+      "exemplo": "Aplicar fotossíntese em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Ecologia",
+      "tags": [
+        "biologia",
+        "ecologia"
+      ],
+      "definicao": "Ecologia é um conteúdo essencial de Biologia.",
+      "exemplo": "Aplicar ecologia em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Corpo humano",
+      "tags": [
+        "biologia",
+        "corpo humano"
+      ],
+      "definicao": "Corpo humano é um conteúdo essencial de Biologia.",
+      "exemplo": "Aplicar corpo humano em uma atividade escolar prática."
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Brasil Colônia",
+      "tags": [
+        "historia",
+        "brasil colônia"
+      ],
+      "definicao": "Brasil Colônia é um conteúdo essencial de História.",
+      "exemplo": "Aplicar brasil colônia em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Independência",
+      "tags": [
+        "historia",
+        "independência"
+      ],
+      "definicao": "Independência é um conteúdo essencial de História.",
+      "exemplo": "Aplicar independência em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Revolução Industrial",
+      "tags": [
+        "historia",
+        "revolução industrial"
+      ],
+      "definicao": "Revolução Industrial é um conteúdo essencial de História.",
+      "exemplo": "Aplicar revolução industrial em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Guerras Mundiais",
+      "tags": [
+        "historia",
+        "guerras mundiais"
+      ],
+      "definicao": "Guerras Mundiais é um conteúdo essencial de História.",
+      "exemplo": "Aplicar guerras mundiais em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Cidadania",
+      "tags": [
+        "historia",
+        "cidadania"
+      ],
+      "definicao": "Cidadania é um conteúdo essencial de História.",
+      "exemplo": "Aplicar cidadania em uma atividade escolar prática."
+    }
+  ],
+  "geografia": [
+    {
+      "titulo": "Clima",
+      "tags": [
+        "geografia",
+        "clima"
+      ],
+      "definicao": "Clima é um conteúdo essencial de Geografia.",
+      "exemplo": "Aplicar clima em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Relevo",
+      "tags": [
+        "geografia",
+        "relevo"
+      ],
+      "definicao": "Relevo é um conteúdo essencial de Geografia.",
+      "exemplo": "Aplicar relevo em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Urbanização",
+      "tags": [
+        "geografia",
+        "urbanização"
+      ],
+      "definicao": "Urbanização é um conteúdo essencial de Geografia.",
+      "exemplo": "Aplicar urbanização em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Globalização",
+      "tags": [
+        "geografia",
+        "globalização"
+      ],
+      "definicao": "Globalização é um conteúdo essencial de Geografia.",
+      "exemplo": "Aplicar globalização em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Biomas",
+      "tags": [
+        "geografia",
+        "biomas"
+      ],
+      "definicao": "Biomas é um conteúdo essencial de Geografia.",
+      "exemplo": "Aplicar biomas em uma atividade escolar prática."
+    }
+  ],
+  "filosofia": [
+    {
+      "titulo": "Ética",
+      "tags": [
+        "filosofia",
+        "ética"
+      ],
+      "definicao": "Ética é um conteúdo essencial de Filosofia.",
+      "exemplo": "Aplicar ética em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Lógica",
+      "tags": [
+        "filosofia",
+        "lógica"
+      ],
+      "definicao": "Lógica é um conteúdo essencial de Filosofia.",
+      "exemplo": "Aplicar lógica em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Política",
+      "tags": [
+        "filosofia",
+        "política"
+      ],
+      "definicao": "Política é um conteúdo essencial de Filosofia.",
+      "exemplo": "Aplicar política em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Conhecimento",
+      "tags": [
+        "filosofia",
+        "conhecimento"
+      ],
+      "definicao": "Conhecimento é um conteúdo essencial de Filosofia.",
+      "exemplo": "Aplicar conhecimento em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Existência",
+      "tags": [
+        "filosofia",
+        "existência"
+      ],
+      "definicao": "Existência é um conteúdo essencial de Filosofia.",
+      "exemplo": "Aplicar existência em uma atividade escolar prática."
+    }
+  ],
+  "sociologia": [
+    {
+      "titulo": "Cultura",
+      "tags": [
+        "sociologia",
+        "cultura"
+      ],
+      "definicao": "Cultura é um conteúdo essencial de Sociologia.",
+      "exemplo": "Aplicar cultura em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Desigualdade",
+      "tags": [
+        "sociologia",
+        "desigualdade"
+      ],
+      "definicao": "Desigualdade é um conteúdo essencial de Sociologia.",
+      "exemplo": "Aplicar desigualdade em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Trabalho",
+      "tags": [
+        "sociologia",
+        "trabalho"
+      ],
+      "definicao": "Trabalho é um conteúdo essencial de Sociologia.",
+      "exemplo": "Aplicar trabalho em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Movimentos sociais",
+      "tags": [
+        "sociologia",
+        "movimentos sociais"
+      ],
+      "definicao": "Movimentos sociais é um conteúdo essencial de Sociologia.",
+      "exemplo": "Aplicar movimentos sociais em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Cidadania",
+      "tags": [
+        "sociologia",
+        "cidadania"
+      ],
+      "definicao": "Cidadania é um conteúdo essencial de Sociologia.",
+      "exemplo": "Aplicar cidadania em uma atividade escolar prática."
+    }
+  ],
+  "artes": [
+    {
+      "titulo": "Cor",
+      "tags": [
+        "artes",
+        "cor"
+      ],
+      "definicao": "Cor é um conteúdo essencial de Artes.",
+      "exemplo": "Aplicar cor em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Forma",
+      "tags": [
+        "artes",
+        "forma"
+      ],
+      "definicao": "Forma é um conteúdo essencial de Artes.",
+      "exemplo": "Aplicar forma em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Movimentos artísticos",
+      "tags": [
+        "artes",
+        "movimentos artísticos"
+      ],
+      "definicao": "Movimentos artísticos é um conteúdo essencial de Artes.",
+      "exemplo": "Aplicar movimentos artísticos em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Música",
+      "tags": [
+        "artes",
+        "música"
+      ],
+      "definicao": "Música é um conteúdo essencial de Artes.",
+      "exemplo": "Aplicar música em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Teatro",
+      "tags": [
+        "artes",
+        "teatro"
+      ],
+      "definicao": "Teatro é um conteúdo essencial de Artes.",
+      "exemplo": "Aplicar teatro em uma atividade escolar prática."
+    }
+  ],
+  "educacao_fisica": [
+    {
+      "titulo": "Saúde",
+      "tags": [
+        "educacao_fisica",
+        "saúde"
+      ],
+      "definicao": "Saúde é um conteúdo essencial de Educação Física.",
+      "exemplo": "Aplicar saúde em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Esporte",
+      "tags": [
+        "educacao_fisica",
+        "esporte"
+      ],
+      "definicao": "Esporte é um conteúdo essencial de Educação Física.",
+      "exemplo": "Aplicar esporte em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Corpo",
+      "tags": [
+        "educacao_fisica",
+        "corpo"
+      ],
+      "definicao": "Corpo é um conteúdo essencial de Educação Física.",
+      "exemplo": "Aplicar corpo em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Movimento",
+      "tags": [
+        "educacao_fisica",
+        "movimento"
+      ],
+      "definicao": "Movimento é um conteúdo essencial de Educação Física.",
+      "exemplo": "Aplicar movimento em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Trabalho em equipe",
+      "tags": [
+        "educacao_fisica",
+        "trabalho em equipe"
+      ],
+      "definicao": "Trabalho em equipe é um conteúdo essencial de Educação Física.",
+      "exemplo": "Aplicar trabalho em equipe em uma atividade escolar prática."
+    }
+  ],
+  "ciencias": [
+    {
+      "titulo": "Método científico",
+      "tags": [
+        "ciencias",
+        "método científico"
+      ],
+      "definicao": "Método científico é um conteúdo essencial de Ciências.",
+      "exemplo": "Aplicar método científico em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Energia",
+      "tags": [
+        "ciencias",
+        "energia"
+      ],
+      "definicao": "Energia é um conteúdo essencial de Ciências.",
+      "exemplo": "Aplicar energia em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Matéria",
+      "tags": [
+        "ciencias",
+        "matéria"
+      ],
+      "definicao": "Matéria é um conteúdo essencial de Ciências.",
+      "exemplo": "Aplicar matéria em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Sistema solar",
+      "tags": [
+        "ciencias",
+        "sistema solar"
+      ],
+      "definicao": "Sistema solar é um conteúdo essencial de Ciências.",
+      "exemplo": "Aplicar sistema solar em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Ecossistemas",
+      "tags": [
+        "ciencias",
+        "ecossistemas"
+      ],
+      "definicao": "Ecossistemas é um conteúdo essencial de Ciências.",
+      "exemplo": "Aplicar ecossistemas em uma atividade escolar prática."
+    }
+  ],
+  "literatura": [
+    {
+      "titulo": "Poesia",
+      "tags": [
+        "literatura",
+        "poesia"
+      ],
+      "definicao": "Poesia é um conteúdo essencial de Literatura.",
+      "exemplo": "Aplicar poesia em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Romance",
+      "tags": [
+        "literatura",
+        "romance"
+      ],
+      "definicao": "Romance é um conteúdo essencial de Literatura.",
+      "exemplo": "Aplicar romance em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Conto",
+      "tags": [
+        "literatura",
+        "conto"
+      ],
+      "definicao": "Conto é um conteúdo essencial de Literatura.",
+      "exemplo": "Aplicar conto em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Modernismo",
+      "tags": [
+        "literatura",
+        "modernismo"
+      ],
+      "definicao": "Modernismo é um conteúdo essencial de Literatura.",
+      "exemplo": "Aplicar modernismo em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Interpretação",
+      "tags": [
+        "literatura",
+        "interpretação"
+      ],
+      "definicao": "Interpretação é um conteúdo essencial de Literatura.",
+      "exemplo": "Aplicar interpretação em uma atividade escolar prática."
+    }
+  ],
+  "redacao": [
+    {
+      "titulo": "Introdução",
+      "tags": [
+        "redacao",
+        "introdução"
+      ],
+      "definicao": "Introdução é um conteúdo essencial de Redação.",
+      "exemplo": "Aplicar introdução em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Tese",
+      "tags": [
+        "redacao",
+        "tese"
+      ],
+      "definicao": "Tese é um conteúdo essencial de Redação.",
+      "exemplo": "Aplicar tese em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Argumentação",
+      "tags": [
+        "redacao",
+        "argumentação"
+      ],
+      "definicao": "Argumentação é um conteúdo essencial de Redação.",
+      "exemplo": "Aplicar argumentação em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Coesão",
+      "tags": [
+        "redacao",
+        "coesão"
+      ],
+      "definicao": "Coesão é um conteúdo essencial de Redação.",
+      "exemplo": "Aplicar coesão em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Conclusão",
+      "tags": [
+        "redacao",
+        "conclusão"
+      ],
+      "definicao": "Conclusão é um conteúdo essencial de Redação.",
+      "exemplo": "Aplicar conclusão em uma atividade escolar prática."
+    }
+  ],
+  "estatistica": [
+    {
+      "titulo": "Média",
+      "tags": [
+        "estatistica",
+        "média"
+      ],
+      "definicao": "Média é um conteúdo essencial de Estatística.",
+      "exemplo": "Aplicar média em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Mediana",
+      "tags": [
+        "estatistica",
+        "mediana"
+      ],
+      "definicao": "Mediana é um conteúdo essencial de Estatística.",
+      "exemplo": "Aplicar mediana em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Moda",
+      "tags": [
+        "estatistica",
+        "moda"
+      ],
+      "definicao": "Moda é um conteúdo essencial de Estatística.",
+      "exemplo": "Aplicar moda em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Probabilidade",
+      "tags": [
+        "estatistica",
+        "probabilidade"
+      ],
+      "definicao": "Probabilidade é um conteúdo essencial de Estatística.",
+      "exemplo": "Aplicar probabilidade em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Gráficos",
+      "tags": [
+        "estatistica",
+        "gráficos"
+      ],
+      "definicao": "Gráficos é um conteúdo essencial de Estatística.",
+      "exemplo": "Aplicar gráficos em uma atividade escolar prática."
+    }
+  ],
+  "economia": [
+    {
+      "titulo": "Oferta",
+      "tags": [
+        "economia",
+        "oferta"
+      ],
+      "definicao": "Oferta é um conteúdo essencial de Economia.",
+      "exemplo": "Aplicar oferta em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Demanda",
+      "tags": [
+        "economia",
+        "demanda"
+      ],
+      "definicao": "Demanda é um conteúdo essencial de Economia.",
+      "exemplo": "Aplicar demanda em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Inflação",
+      "tags": [
+        "economia",
+        "inflação"
+      ],
+      "definicao": "Inflação é um conteúdo essencial de Economia.",
+      "exemplo": "Aplicar inflação em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Juros",
+      "tags": [
+        "economia",
+        "juros"
+      ],
+      "definicao": "Juros é um conteúdo essencial de Economia.",
+      "exemplo": "Aplicar juros em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Mercado",
+      "tags": [
+        "economia",
+        "mercado"
+      ],
+      "definicao": "Mercado é um conteúdo essencial de Economia.",
+      "exemplo": "Aplicar mercado em uma atividade escolar prática."
+    }
+  ],
+  "psicologia": [
+    {
+      "titulo": "Aprendizagem",
+      "tags": [
+        "psicologia",
+        "aprendizagem"
+      ],
+      "definicao": "Aprendizagem é um conteúdo essencial de Psicologia.",
+      "exemplo": "Aplicar aprendizagem em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Memória",
+      "tags": [
+        "psicologia",
+        "memória"
+      ],
+      "definicao": "Memória é um conteúdo essencial de Psicologia.",
+      "exemplo": "Aplicar memória em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Emoções",
+      "tags": [
+        "psicologia",
+        "emoções"
+      ],
+      "definicao": "Emoções é um conteúdo essencial de Psicologia.",
+      "exemplo": "Aplicar emoções em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Comportamento",
+      "tags": [
+        "psicologia",
+        "comportamento"
+      ],
+      "definicao": "Comportamento é um conteúdo essencial de Psicologia.",
+      "exemplo": "Aplicar comportamento em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Desenvolvimento",
+      "tags": [
+        "psicologia",
+        "desenvolvimento"
+      ],
+      "definicao": "Desenvolvimento é um conteúdo essencial de Psicologia.",
+      "exemplo": "Aplicar desenvolvimento em uma atividade escolar prática."
+    }
+  ],
+  "astronomia": [
+    {
+      "titulo": "Planetas",
+      "tags": [
+        "astronomia",
+        "planetas"
+      ],
+      "definicao": "Planetas é um conteúdo essencial de Astronomia.",
+      "exemplo": "Aplicar planetas em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Estrelas",
+      "tags": [
+        "astronomia",
+        "estrelas"
+      ],
+      "definicao": "Estrelas é um conteúdo essencial de Astronomia.",
+      "exemplo": "Aplicar estrelas em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Gravidade",
+      "tags": [
+        "astronomia",
+        "gravidade"
+      ],
+      "definicao": "Gravidade é um conteúdo essencial de Astronomia.",
+      "exemplo": "Aplicar gravidade em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Galáxias",
+      "tags": [
+        "astronomia",
+        "galáxias"
+      ],
+      "definicao": "Galáxias é um conteúdo essencial de Astronomia.",
+      "exemplo": "Aplicar galáxias em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Universo",
+      "tags": [
+        "astronomia",
+        "universo"
+      ],
+      "definicao": "Universo é um conteúdo essencial de Astronomia.",
+      "exemplo": "Aplicar universo em uma atividade escolar prática."
+    }
+  ],
+  "meio_ambiente": [
+    {
+      "titulo": "Sustentabilidade",
+      "tags": [
+        "meio_ambiente",
+        "sustentabilidade"
+      ],
+      "definicao": "Sustentabilidade é um conteúdo essencial de Meio Ambiente.",
+      "exemplo": "Aplicar sustentabilidade em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Reciclagem",
+      "tags": [
+        "meio_ambiente",
+        "reciclagem"
+      ],
+      "definicao": "Reciclagem é um conteúdo essencial de Meio Ambiente.",
+      "exemplo": "Aplicar reciclagem em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Biodiversidade",
+      "tags": [
+        "meio_ambiente",
+        "biodiversidade"
+      ],
+      "definicao": "Biodiversidade é um conteúdo essencial de Meio Ambiente.",
+      "exemplo": "Aplicar biodiversidade em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Clima",
+      "tags": [
+        "meio_ambiente",
+        "clima"
+      ],
+      "definicao": "Clima é um conteúdo essencial de Meio Ambiente.",
+      "exemplo": "Aplicar clima em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Recursos naturais",
+      "tags": [
+        "meio_ambiente",
+        "recursos naturais"
+      ],
+      "definicao": "Recursos naturais é um conteúdo essencial de Meio Ambiente.",
+      "exemplo": "Aplicar recursos naturais em uma atividade escolar prática."
+    }
+  ],
+  "programacao": [
+    {
+      "titulo": "Algoritmos",
+      "tags": [
+        "programacao",
+        "algoritmos"
+      ],
+      "definicao": "Algoritmos é um conteúdo essencial de Programação.",
+      "exemplo": "Aplicar algoritmos em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Variáveis",
+      "tags": [
+        "programacao",
+        "variáveis"
+      ],
+      "definicao": "Variáveis é um conteúdo essencial de Programação.",
+      "exemplo": "Aplicar variáveis em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Funções",
+      "tags": [
+        "programacao",
+        "funções"
+      ],
+      "definicao": "Funções é um conteúdo essencial de Programação.",
+      "exemplo": "Aplicar funções em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Estruturas de dados",
+      "tags": [
+        "programacao",
+        "estruturas de dados"
+      ],
+      "definicao": "Estruturas de dados é um conteúdo essencial de Programação.",
+      "exemplo": "Aplicar estruturas de dados em uma atividade escolar prática."
+    },
+    {
+      "titulo": "Complexidade",
+      "tags": [
+        "programacao",
+        "complexidade"
+      ],
+      "definicao": "Complexidade é um conteúdo essencial de Programação.",
+      "exemplo": "Aplicar complexidade em uma atividade escolar prática."
+    },
+    {
+      "titulo": "hello_world.py",
+      "tags": [
+        "python",
+        "codigo",
+        "hello_world.py"
+      ],
+      "definicao": "Exemplo de código Python: hello_world.py",
+      "exemplo": "Consulte training_input/programacao/python/hello_world.py"
+    },
+    {
+      "titulo": "variaveis.py",
+      "tags": [
+        "python",
+        "codigo",
+        "variaveis.py"
+      ],
+      "definicao": "Exemplo de código Python: variaveis.py",
+      "exemplo": "Consulte training_input/programacao/python/variaveis.py"
+    },
+    {
+      "titulo": "condicoes.py",
+      "tags": [
+        "python",
+        "codigo",
+        "condicoes.py"
+      ],
+      "definicao": "Exemplo de código Python: condicoes.py",
+      "exemplo": "Consulte training_input/programacao/python/condicoes.py"
+    },
+    {
+      "titulo": "loops.py",
+      "tags": [
+        "python",
+        "codigo",
+        "loops.py"
+      ],
+      "definicao": "Exemplo de código Python: loops.py",
+      "exemplo": "Consulte training_input/programacao/python/loops.py"
+    },
+    {
+      "titulo": "funcoes.py",
+      "tags": [
+        "python",
+        "codigo",
+        "funcoes.py"
+      ],
+      "definicao": "Exemplo de código Python: funcoes.py",
+      "exemplo": "Consulte training_input/programacao/python/funcoes.py"
+    },
+    {
+      "titulo": "listas.py",
+      "tags": [
+        "python",
+        "codigo",
+        "listas.py"
+      ],
+      "definicao": "Exemplo de código Python: listas.py",
+      "exemplo": "Consulte training_input/programacao/python/listas.py"
+    },
+    {
+      "titulo": "dicionarios.py",
+      "tags": [
+        "python",
+        "codigo",
+        "dicionarios.py"
+      ],
+      "definicao": "Exemplo de código Python: dicionarios.py",
+      "exemplo": "Consulte training_input/programacao/python/dicionarios.py"
+    },
+    {
+      "titulo": "classes.py",
+      "tags": [
+        "python",
+        "codigo",
+        "classes.py"
+      ],
+      "definicao": "Exemplo de código Python: classes.py",
+      "exemplo": "Consulte training_input/programacao/python/classes.py"
+    },
+    {
+      "titulo": "excecoes.py",
+      "tags": [
+        "python",
+        "codigo",
+        "excecoes.py"
+      ],
+      "definicao": "Exemplo de código Python: excecoes.py",
+      "exemplo": "Consulte training_input/programacao/python/excecoes.py"
+    },
+    {
+      "titulo": "fibonacci.py",
+      "tags": [
+        "python",
+        "codigo",
+        "fibonacci.py"
+      ],
+      "definicao": "Exemplo de código Python: fibonacci.py",
+      "exemplo": "Consulte training_input/programacao/python/fibonacci.py"
+    },
+    {
+      "titulo": "fatorial.py",
+      "tags": [
+        "python",
+        "codigo",
+        "fatorial.py"
+      ],
+      "definicao": "Exemplo de código Python: fatorial.py",
+      "exemplo": "Consulte training_input/programacao/python/fatorial.py"
+    },
+    {
+      "titulo": "primo.py",
+      "tags": [
+        "python",
+        "codigo",
+        "primo.py"
+      ],
+      "definicao": "Exemplo de código Python: primo.py",
+      "exemplo": "Consulte training_input/programacao/python/primo.py"
+    },
+    {
+      "titulo": "busca_binaria.py",
+      "tags": [
+        "python",
+        "codigo",
+        "busca_binaria.py"
+      ],
+      "definicao": "Exemplo de código Python: busca_binaria.py",
+      "exemplo": "Consulte training_input/programacao/python/busca_binaria.py"
+    },
+    {
+      "titulo": "ordenacao_bolha.py",
+      "tags": [
+        "python",
+        "codigo",
+        "ordenacao_bolha.py"
+      ],
+      "definicao": "Exemplo de código Python: ordenacao_bolha.py",
+      "exemplo": "Consulte training_input/programacao/python/ordenacao_bolha.py"
+    },
+    {
+      "titulo": "pilha.py",
+      "tags": [
+        "python",
+        "codigo",
+        "pilha.py"
+      ],
+      "definicao": "Exemplo de código Python: pilha.py",
+      "exemplo": "Consulte training_input/programacao/python/pilha.py"
+    },
+    {
+      "titulo": "fila.py",
+      "tags": [
+        "python",
+        "codigo",
+        "fila.py"
+      ],
+      "definicao": "Exemplo de código Python: fila.py",
+      "exemplo": "Consulte training_input/programacao/python/fila.py"
+    },
+    {
+      "titulo": "grafo_bfs.py",
+      "tags": [
+        "python",
+        "codigo",
+        "grafo_bfs.py"
+      ],
+      "definicao": "Exemplo de código Python: grafo_bfs.py",
+      "exemplo": "Consulte training_input/programacao/python/grafo_bfs.py"
+    }
+  ]
+}

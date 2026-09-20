@@ -1,6 +1,118 @@
-# Arquivo: .github/workflows/generate_text.yml
-# Este arquivo foi criado como placeholder porque o navegador não conseguiu ler o arquivo local.
-# Para enviar o conteúdo real:
-# 1. Sirva esta pasta via HTTP, por exemplo: python -m http.server 8080
-# 2. Abra http://localhost:8080/index.html
-# Ou cole o conteúdo dos arquivos no manifesto JSON.
+name: Generate Text
+
+on:
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: Prompt educacional
+        required: true
+        default: Explique fotossíntese
+      materia:
+        description: Matéria
+        required: true
+        default: auto
+        type: choice
+        options:
+          - auto
+          - matematica
+          - portugues
+          - ingles
+          - fisica
+          - quimica
+          - biologia
+          - historia
+          - geografia
+          - filosofia
+          - sociologia
+          - artes
+          - educacao_fisica
+          - ciencias
+          - literatura
+          - redacao
+          - estatistica
+          - economia
+          - psicologia
+          - astronomia
+          - meio_ambiente
+          - programacao
+      formato:
+        description: Formato
+        required: true
+        default: resumo
+        type: choice
+        options:
+          - resumo
+          - explicacao
+          - exercicio
+          - prova
+          - apostila
+          - codigo
+          - flashcard
+          - trabalho
+      nivel:
+        description: Nível
+        required: true
+        default: Ensino Médio
+        type: choice
+        options:
+          - auto
+          - Ensino Fundamental
+          - Ensino Médio
+          - Ensino Superior
+      modo:
+        description: Modo de pensamento
+        required: true
+        default: balanced
+        type: choice
+        options:
+          - none
+          - low
+          - low+
+          - balanced
+          - balanced+
+          - high
+          - high+
+          - xhigh
+          - xhigh+
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy fpdf2 || pip install numpy
+
+      - name: Generate educational text
+        env:
+          PROMPT: ${{ github.event.inputs.prompt }}
+          MATERIA: ${{ github.event.inputs.materia }}
+          FORMATO: ${{ github.event.inputs.formato }}
+          NIVEL: ${{ github.event.inputs.nivel }}
+          MODO: ${{ github.event.inputs.modo }}
+        run: |
+          python text_generator.py --prompt "$PROMPT" --materia "$MATERIA" --formato "$FORMATO" --nivel "$NIVEL" --modo "$MODO" --export txt,md,pdf
+
+      - name: Commit outputs
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add text_output memory
+          if git diff --staged --quiet; then
+            echo "Sem alterações"
+          else
+            git commit -m "Generate text [skip ci]"
+            git push
+          fi

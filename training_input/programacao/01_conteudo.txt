@@ -1,0 +1,17 @@
+AULA DE PROGRAMAÇÃO
+
+Objetivo:
+Apresentar os conceitos essenciais de Programação para estudo escolar.
+
+Tópicos:
+- Algoritmos
+- Variáveis
+- Funções
+- Estruturas de dados
+- Complexidade
+
+Explicação:
+Programação é uma área importante da educação. O estudante deve compreender os fundamentos, reconhecer exemplos e aplicar os conceitos em exercícios.
+
+Exemplo prático:
+Usar algoritmos em uma atividade do cotidiano escolar.

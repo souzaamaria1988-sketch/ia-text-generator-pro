@@ -1,0 +1,23 @@
+CONCEITOS DE PROGRAMAÇÃO
+
+Este diretório contém exemplos importantes de Python.
+Os arquivos estão em training_input/programacao/python/.
+
+Exemplos incluídos:
+- hello_world.py
+- variaveis.py
+- condicoes.py
+- loops.py
+- funcoes.py
+- listas.py
+- dicionarios.py
+- classes.py
+- excecoes.py
+- fibonacci.py
+- fatorial.py
+- primo.py
+- busca_binaria.py
+- ordenacao_bolha.py
+- pilha.py
+- fila.py
+- grafo_bfs.py
